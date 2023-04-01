@@ -15,7 +15,7 @@ const projectVariant = {
 };
 
 
-const Project =({title})=> {
+const Project =({title, kegiatan})=> {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
         bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,7 +25,7 @@ const Project =({title})=> {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quas, nostrum, id incidunt nam, consectetur sint voluptatum quo praesentium rem dolorum eos magnam.
+                    {kegiatan}
                 </p>
             </div>
             <img src={`assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -61,7 +61,7 @@ const Projects = () =>{
                         
                     </div>
                     <p className="mt-10 mb-10">
-                        Saat ini sudah terdapat 2 buah modul kursus, yaitu 1 modul untuk staf umum dan 1 modul khusus untuk tenaga nakes. 
+                        Berbagai kegiatan telah dilakukan dalam rangka penyusunan modul elearning ini dan sosialisasi materi kursus. 
                         
                     </p>
                 </motion.div>
@@ -82,23 +82,23 @@ const Projects = () =>{
                     <div className="flex justify-center text-center items-center p-10 bg-red
                             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                     >
-                        BEAUTIFUL USER INTERFACES
+                        MULAI DARI PENYUSUNAN MODUL
                     </div>
-                    <Project title="Project 1" />
-                    <Project title="Project 2" />
+                    <Project title="kegiatan 1" kegiatan="Workshop finalisasi modul" />
+                    <Project title="kegiatan 2" kegiatan="Workshop finalisasi modul"/>
 
                     {/* ROW 2*/}
-                    <Project title="Project 3" />
-                    <Project title="Project 4" />
-                    <Project title="Project 5" />
+                    <Project title="kegiatan 3" kegiatan="Training prison information system" />
+                    <Project title="kegiatan 4" kegiatan="Penguatan 20 UPT Pemasyarakatan percontohan"/>
+                    <Project title="kegiatan 5" kegiatan="Penguatan peningkatan layanan kesehatan warga binaan"/>
 
                     {/* ROW 3*/}
-                    <Project title="Project 6" />
-                    <Project title="Project 7" />
+                    <Project title="kegiatan 6" kegiatan="Penguatan peningkatan layanan kesehatan warga binaan" />
+                    <Project title="kegiatan 7" kegiatan="Penguatan peningkatan layanan kesehatan warga binaan"/>
                     <div className="flex justify-center text-center items-center p-10 bg-blue
                             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                     >
-                        SMOOTH USER EXPERIENCE
+                        HINGGA SOSIALISASI DAN PENGUATAN
                     </div>
 
 

@@ -9,38 +9,38 @@ const DotGroup = ({selectedPage, setSelectedPage})=>{
     return(
         <div className="flex flex-col gap-6 fixed top-[60%] right-7">
             <AnchorLink
-            className={`${selectedPage === 'home' ? selectedStyles:"bg-dark-grey"}
+            className={`${selectedPage === 'beranda' ? selectedStyles:"bg-dark-grey"}
                w-3 h-3 rounded-full`}
-            href="#home"
-            onClick={()=>setSelectedPage('home')}
+            href="#beranda"
+            onClick={()=>setSelectedPage('beranda')}
 
             />
              <AnchorLink
-            className={`${selectedPage === 'course' ? selectedStyles:"bg-dark-grey"}
+            className={`${selectedPage === 'kursus' ? selectedStyles:"bg-dark-grey"}
                w-3 h-3 rounded-full`}
-            href="#course"
-            onClick={()=>setSelectedPage('course')}
+            href="#kursus"
+            onClick={()=>setSelectedPage('kursus')}
 
             />
             <AnchorLink
-            className={`${selectedPage === 'teams' ? selectedStyles:"bg-dark-grey"}
+            className={`${selectedPage === 'penyusun' ? selectedStyles:"bg-dark-grey"}
                w-3 h-3 rounded-full`}
-            href="#teams"
-            onClick={()=>setSelectedPage('teams')}
+            href="#penyusun"
+            onClick={()=>setSelectedPage('penyusun')}
 
             />
             <AnchorLink
-            className={`${selectedPage === 'news' ? selectedStyles:"bg-dark-grey"}
+            className={`${selectedPage === 'kegiatan' ? selectedStyles:"bg-dark-grey"}
                w-3 h-3 rounded-full`}
-            href="#news"
-            onClick={()=>setSelectedPage('news')}
+            href="#kegiatan"
+            onClick={()=>setSelectedPage('kegiatan')}
 
             />
             <AnchorLink
-            className={`${selectedPage === 'contact' ? selectedStyles:"bg-dark-grey"}
+            className={`${selectedPage === 'kontak' ? selectedStyles:"bg-dark-grey"}
                w-3 h-3 rounded-full`}
-            href="#contact"
-            onClick={()=>setSelectedPage('contact')}
+            href="#kontak"
+            onClick={()=>setSelectedPage('kontak')}
 
             />
         

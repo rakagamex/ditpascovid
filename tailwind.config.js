@@ -32,9 +32,13 @@ module.exports = {
         logodpasw:"url('./assets/logodpaswhite.png')",
         virus:"url('./assets/virus.png')",
         virus2:"url('./assets/virus2.png')",
-        person1:"url('./assets/person-1.png')",
-        person2:"url('./assets/person-2.png')",
-        person3:"url('./assets/person-3.png')",
+        ditpas1:"url('./assets/ditpas-man.png')",
+        ditpas2:"url('./assets/ditpas-woman.png')",
+        ditpas3:"url('./assets/ditpas-man.png')",
+        unodcman:"url('./assets/unodc-man.png')",
+        unodcwoman:"url('./assets/unodc-woman.png')",
+        doctormale:"url('./assets/doctor-male.png')",
+        doctorfemale:"url('./assets/doctor-female.png')",
 
       }
     },
