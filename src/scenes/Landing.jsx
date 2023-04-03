@@ -76,7 +76,7 @@ const Landing = ({setSelectedPage}) => {
                         <button
                             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
                             hover:bg-blue hover:text-white transition duration-500"
-                            onClick={()=> {window.location.href = 'https://lms.pedulicovid19-pemasyarakatan.com'}}
+                            onClick={()=> {window.location.href = 'https://pedulicovid19-pemasyarakatan.com/elearning'}}
                            
                         >
                         Login
